@@ -190,7 +190,7 @@ nav ul a:hover{
     width: calc((100% / 3) - 54px);
     height: 950px;
     float: left;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
 }
 
 .abbonamenti .lista:nth-of-type(3){
@@ -198,7 +198,7 @@ nav ul a:hover{
 }
 
 .lista-titolo{
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
     height: 50px;
     text-align: center;
     line-height: 50px;
@@ -261,7 +261,7 @@ nav ul a:hover{
     width: 70%;
     margin: 0 auto;
     margin-top: 80px;
-    border: 1px solid gray;
+    border: 1px solid lightgray;
 }
 
 .lista-lunga .cont-lista{
@@ -288,4 +288,82 @@ nav ul a:hover{
 
 .lista-lunga .cont-lista p{
     margin: 30px 0 20px 0;
+}
+
+/* section contatto partner */
+.contenitore-partner{
+    width: 70%;
+    margin: 150px auto 120px;
+}
+
+.contenitore-partner img{
+    height: 500px;
+    float: left;
+}
+
+.contenitore-partner div{
+    float: right;
+    width: 40%;
+    margin: 100px 30px 0 0;
+}
+
+.contenitore-partner h3{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.contenitore-partner p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.contenitore-partner .btn-bianco{
+    border: 1px solid black;
+    background-color: #fff;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+/* section dropbox business */
+.business{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.business h2{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.business .container-business{
+    width: calc(100% / 3 - 37px);
+    display: inline-block;
+    margin: 50px 0;
+}
+
+.business .container-business:nth-of-type(2),
+.business .container-business:nth-of-type(5){
+    margin: 0 50px;
+}
+
+.business .container-business h4{
+    font-size: 30px;
+}
+
+.business .container-business p{
+    width: 90%;
+    font-size: 18px;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+
+.business .container-business:nth-of-type(1) p a{
+    text-decoration: underline;
+}
+
+.business .container-business img{
+    width: 100%;
+    margin: auto;
 }
