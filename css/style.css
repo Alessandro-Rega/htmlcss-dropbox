@@ -37,11 +37,31 @@ a{
     background-color: #044ab9;
 }
 
+.btn-bianco{
+    border: 1px solid black;
+    background-color: #fff;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.btn-bianco:hover{
+    background-color: rgb(233, 233, 233);
+}
 /* header + nav */
 header{
     width: 100%;
     height: 80px;
     background-color: white;
+}
+
+.cont-nav{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: #fff;
+    border-bottom: 1px solid lightgray;
+    z-index: 10;
 }
 
 nav{
@@ -90,6 +110,7 @@ nav ul a:hover{
 .jumbo-back{
     width: 100%;
     height: 800px;
+    position: relative;
     padding: 80px 0 0 0;
     background-color: #b4d0e7;
 }
@@ -129,14 +150,19 @@ nav ul a:hover{
     cursor: pointer;
 }
 
+.jumbo-row-left span:hover{
+    text-decoration: underline;
+}
+
 .jumbo-row-left .fa-arrow-down{
     margin-top: 50px;
     font-size: 40px;
 }
 
 .jumbo-row-right{
-    float: right;
-    margin-right: 40px;
+    max-width: 550px;
+    position: absolute;
+    right: 30%;
 }
 
 .jumbo-row-right img{
@@ -319,14 +345,6 @@ nav ul a:hover{
     margin-bottom: 25px;
 }
 
-.contenitore-partner .btn-bianco{
-    border: 1px solid black;
-    background-color: #fff;
-    padding: 10px 20px;
-    font-size: 17px;
-    cursor: pointer;
-}
-
 /* section dropbox business */
 .business{
     width: 70%;
@@ -389,9 +407,6 @@ nav ul a:hover{
     text-decoration: underline;
 }
 
-.team{
-}
-
 .cont-quadrati{
     width: 30%;
     float: left;
@@ -411,14 +426,7 @@ nav ul a:hover{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.team .cont-quadrati .quadrato svg{
-    width: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    filter: invert(1);
 }
 
 .cont-quadrati.centrale{
@@ -455,10 +463,6 @@ nav ul a:hover{
 }
 
 /* quadrati singoli */
-.quadrato svg path{
-    fill: white;
-}
-
 #designit{
     background-color: #a2d39b;
     border: 10px solid #d0e9cd;
@@ -490,4 +494,37 @@ nav ul a:hover{
 
 #clearchannel{
     background-color: #ffd830;
+}
+
+
+/* dropbox in azienda */
+.main-azienda{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-color: #b4d0e7;
+}
+
+.cont-azienda{
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 30px;
+    margin: 0 auto;
+}
+
+.cont-azienda h2{
+    width: 40%;
+    color: #61082b;
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+}
+
+.cont-azienda .btn-bianco{
+    padding: 10px 50px;
+    border: none;
+    float: right;
 }
