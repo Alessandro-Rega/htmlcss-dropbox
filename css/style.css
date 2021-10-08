@@ -261,7 +261,7 @@ nav ul li:hover{
     margin-bottom: 20px;
 }
 
-.lista span{
+.lista span:not(.funzioni, .archivio){
     display: block;
     margin-bottom: 30px;
 }
@@ -284,6 +284,23 @@ nav ul li:hover{
     color: #778591;
 }
 
+.archivio{
+    width: 80%;
+    display: inline-block;
+}
+
+.fa-pencil-alt,
+.fa-smile,
+.fa-folder{
+    vertical-align: top;
+}
+
+.funzioni{
+    width: 80%;
+    display: inline-block;
+}
+
+
 .lista .btn{
     width: 100%;
 }
@@ -295,6 +312,10 @@ nav ul li:hover{
 .cont-lista .acquista-ora a{
     color: #0564ff;
     text-decoration: underline;
+}
+
+.cont-lista .acquista-ora a:hover{
+    color: #004cc5;
 }
 
 .cont-lista hr{
@@ -311,6 +332,15 @@ nav ul li:hover{
 
 .cont-lista .fa-check{
     color: #0061ff;
+}
+
+.fa-check{
+    vertical-align: top;
+}
+
+.invia-file{
+    width: 80%;
+    display: inline-block;
 }
 
 /* lista lunga */
@@ -435,6 +465,10 @@ nav ul li:hover{
     font-size: 17px;
     font-weight: 500;
     text-decoration: underline;
+}
+
+.team-titolo a:hover{
+    color: #004cc5;;
 }
 
 .cont-quadrati{
