@@ -7,7 +7,6 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    padding-bottom: 1000px;
 }
 
 a{
@@ -603,7 +602,56 @@ nav ul li:hover{
     color: gray;
 }
 
-/* testo appare su hover */
+/* testo faq appare su hover */
 .cont-domande .domanda:hover .testohover{
     display: block;
+}
+
+/* footer */
+footer{
+    height: 500px;
+    margin-top: 150px;
+    padding-top: 100px;
+    background-color: #000;
+}
+footer a{color: white;}
+
+.cont-footer{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.lista-footer {
+    color: white;
+}
+
+.col-lista{
+    float: left;
+    margin-right: 120px;
+    list-style: none;
+}
+
+.col-lista ul{
+    margin-top: 20px;
+    list-style: none;
+}
+
+.lista-footer ul li{
+    margin-bottom: 10px;
+}
+
+.lista-footer ul li a:hover{
+    text-decoration: underline;
+}
+
+footer hr{
+    width: 7%;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    border: none;
+    border-bottom: 1px solid lightgray
+}
+
+footer span{
+    color: gray;
 }
