@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- header FIXED - FARE DROPDOWN MENU' - AGGIUNGERE LINIETTA SOTTO HOVER-->
+    <!-- header  FARE DROPDOWN MENU'-->
     <header>
         <div class="cont-nav">
             <nav class="clearfix">
@@ -29,8 +29,24 @@
 
                 <!-- menù lato destro -->
                 <ul id="menu-destra">
-                    <li><a href="#">Supporto</a></li>
-                    <li><a href="#">Contatta l'ufficio vendite</a></li>
+                    <li class="dropdown">
+                        <a href="#">Supporto</a>
+                        <!-- dropdown menu -->
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Contatta l'ufficio vendite</a>
+                        <!-- dropdown menu -->
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                    </li>
                     <li><a href="#">Accedi</a></li>
                     <!-- bottone inizia -->
                     <li><a href="#"><button class="btn">Inizia</button></a></li>
@@ -275,7 +291,7 @@
             </div>
         </section>
 
-        <!-- dropbox in azienda -->
+        <!-- section dropbox in azienda -->
         <section class="main-azienda">
             <div class="cont-azienda clearfix">
                 <h2>Porta Dropbox Business nella tua azienda.</h2>
@@ -283,7 +299,7 @@
             </div>
         </section>
 
-        <!-- domande frequenti -->
+        <!-- section domande frequenti -->
         <section class="domande">
             <div class="cont-domande">
                 <h2>Domande frequenti</h2>
