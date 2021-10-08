@@ -528,3 +528,51 @@ nav ul a:hover{
     border: none;
     float: right;
 }
+
+/* section domande frequenti */
+.domande{
+    margin: 100px 0;
+}
+
+.cont-domande{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.cont-domande h2{
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.cont-domande .domanda{
+    width: 100%;
+    padding: 35px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.cont-domande .domanda:first-of-type{
+    border-top: 1px solid lightgray;
+}
+
+.cont-domande .domanda span{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.cont-domande .domanda i{
+    float: right;
+    margin-right: 60px;
+}
+
+.cont-domande .testohover{
+    display: none;
+    width: 80%;
+    padding: 10px 10px;
+    font-weight: 500;
+    color: gray;
+}
+
+/* testo appare su hover */
+.cont-domande .domanda:hover .testohover{
+    display: block;
+}
