@@ -643,9 +643,9 @@ nav ul li:hover{
 
 /* footer */
 footer{
-    height: 500px;
     margin-top: 150px;
     padding-top: 100px;
+    padding-bottom: 20px;
     background-color: #000;
 }
 footer a{color: white;}
